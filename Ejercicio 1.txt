@@ -1,0 +1,61 @@
+1	Realiza un análisis del problema de un software que permita sumar o restar (una sóla opción por ejecución) números enteros.
+
+Dentro de la ejecucion tendran que emplearse n VARIABLES de valor NUMERO ENTERO y UN operador a elegir entre + o -, de modo que quedará un resultado igual a una variable de NUMERO ENTERO
+_+_=_	o	_-_=_
+
+solucion clase:
+que el usuario introduzca si es una suma (+) o una resta (-)
+que el usuario introduzca la cantidad de numeros que quiera sumar(+) o restar(-), n numeros
+que el usuario introduzca los n números
+salida: un solo número entero.
+
+
+2	Realiza un análisis del problema de un software que permita sumar y restar (ambas opciones por ejecución) números enteros.
+Dentro de la ejecución se utilizan los operadores + y -. Se emplearán n VARIABLES introducidas por el usuario, todas con valor número ENTERO, de modo que quedará un resultado igual a una variable de NUMERO ENTERO
+
+solucion clase:
+que el usuario introduzca la cantidad de numeros(n) con los que va a operar
+que el usuario introduzca los n números
+	se realiza la suma total
+	se realiza la resta total
+salida: dos números enteros
+
+
+3	Realiza un análisis del problema de un software que permita contar las cantidad de veces que aparece la letra a en una frase solicitada al usuario
+El programa tendra que diseccionar el dato introducido en la variable, dato que será una cadena de caracteres.
+Al diseccionar la cadena de caracteres en cada uno de sus caracteres comparará de primero a último los caracteres de la frase con el caracter a, metido en una var cte="a".
+Cada vez que la comparación de positivo, sumará una unidad a un var que en principio será un cero.
+Al terminar de leer la frase el numero almacenado en la variable que en un inicio era 0 y ha ido sumando 1 conforme a coincidia con un caracter de la frase tendrá guardado el número de 'a's en la frase. 
+El dato resultante ha de ser un numero entero
+
+solución clase:
+que el usuario introduzca la frase(cadena de caracteres)=variable
+salida: número natural
+
+
+4	Realiza un análisis del problema de un software que permita indicar si un número entero es par o impar.
+El programa dará como respuesta true si es par y false si es impar.
+tendremos una variable constante que será 2, y emplearemos un operador %.
+La funcion nos dará el resto del numero introducido por el usuario, si el resto es distinto a 0, será false=impar o true=par
+
+solución clase:
+entrada: un numero entero
+salida: boolean
+
+
+5	Realiza un análisis del problema de un software que permita obtener el número de cifras que contiene un número entero
+Convertir el numero introducido en una cadena de caracteres
+Utilizar una función que cuente los caracteres de dicha cadena
+
+solución clase:
+entrada: un numero entero
+salida: un numero natural
+
+
+6	Realiza un análisis del problema de un software que permita validar a un usuario con su contraseña, ofreciéndole N intentos
+(N es un número entre 1 y 5 y se le asigna a cada usuario aleatoriamente). Si falla sus intentos, debe esperar entre 5 y 20 minutos (también se decide de forma aleatoria)
+
+solución clase:
+entradas por usuario:dos cadena de caracteres (1 de usuario)(1 de contrasena)
+entradas dadas por el programa internamente, solo en caso de que la entrada de usuario sea errónea: variable N definida aleatoriamente (intentos), variable m definida aleatoriamente (minutos)
+salida:lapsus de tiempo
